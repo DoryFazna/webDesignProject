@@ -1,0 +1,179 @@
+/* Heading*/
+#head{
+	background-color:#d1e2ff;
+	height:50px;
+}
+
+/* Student name*/
+#headcolumn{
+	width:70%;
+	float:left;
+}
+
+/* profile photo*/
+#headcolumn2{
+	width:30%;
+	float:right;
+}
+
+/* Main header*/
+#cover{
+	background-color:#a4f442;
+	height:160px;
+}
+
+
+#img{
+	width:250px;
+	border: 8px solid #002156;
+	border-radius : 200px;
+	margin-top:30px;
+	
+	
+}
+
+#title{
+	font-family:Century Gothic;
+	margin-top:60px;
+	margin-left:500px;
+	font-size:40px;
+	color:#000f26;
+	font-weight:bold;
+	
+}
+
+/* for all the container*/
+#contact,#basic, #about,#Edu, #skills, #addi{
+	margin-left:40px;
+	padding-left:40px;
+	border-top:1.5px solid black;
+	float:left;
+	width:400px;
+	background-color:#e8f0ff;
+}
+
+/* topic for each section*/
+#topic{
+	font-size:30px;
+	color:#002156;
+	font-family:Candara;
+	text-align:center;
+	letter-spacing: 5px;
+	
+	
+}
+/* full page*/
+#whole{
+	width:1300px;
+	margin:auto;
+	border:1px solid black;
+	box-shadow: 5px 10px gray;
+	height:2000px;
+	background-color:white;
+}
+
+/* Content under each topic*/
+#info{
+	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+	font-size:20px;
+	color:black;
+	
+}
+/* container*/
+#about{
+	width:330px;
+	height:297px;
+
+}
+/* container*/
+#contact{
+	margin-top:0px;
+	width:310px;
+	margin-left:20px;
+}
+/* container*/
+#Edu {
+
+	width:580px;
+	margin-top:30px;
+	
+}
+
+/* container*/
+#addi {
+
+	width:1190px;
+	margin-top:30px;
+	
+}
+/* container*/
+#skills{
+	width:550px;
+	height:435px;
+	margin-top:30px;
+}
+
+.col1,.col2,.col3,.col4{
+	float:left;
+	
+}
+.col1{
+	width:900px;
+}
+.col2{
+	width:250px;
+}
+.col3{
+	width:580px;
+}
+.col4{
+	width:580px;
+	margin-left:30px;
+	
+}
+td{
+	padding:10px;
+}
+#social{
+	
+	height:80px; 
+	width:310px; 
+	margin-left:25px;
+	padding-left:10px;
+	margin-top:10px
+}
+
+/* container*/
+#media{
+	border-radius:10px 10px;
+	border:2px solid black;
+	width:50px;
+	margin-left:5px;
+	transition: all .2s ease-in-out;
+
+	
+}
+#media:hover, #home:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  cursor:pointer;
+}
+
+body{
+	background-image:url('../images/backi.jpg');
+	background-attachment:fixed;
+}
+
+/* Navigation Button*/
+#home{
+	background-color: #a4f442;
+	height:40px;
+	width:80px;
+	float:right;
+	padding:20px;
+	font-size:30px;
+	font-family:arial ;
+	border-radius:30px;
+	margin-right:50px;
+	margin-top:30px;
+	
+}

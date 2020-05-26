@@ -1,0 +1,167 @@
+h1{
+	margin-left:400px;
+
+
+}
+
+
+
+#faz, #mah, #tha, #she{
+	
+	transition: all .2s ease-in-out;
+	text-align:center;
+	font-family:Papyrus, fantasy; 
+	font-weight:bold;
+	font-size:30px;
+	border-radius : 20px;
+	float:left;
+	
+	width:250px;
+	margin-top:20px;
+}
+
+#mah{
+	margin-left:75px;
+	
+}
+#tha{
+	margin-left:115px;
+	
+}
+#faz{
+	margin-left:110px;
+	
+}
+
+#she{
+	margin-left:105px;
+	
+}
+
+#m , #t, #f, #s {
+	transition: all .2s ease-in-out;
+	padding:50px;
+	width:300px;
+	height:300px;
+	background-size:300px;
+	border:5px solid white;
+	border-radius : 20px;
+	float:left;
+	margin-left:60px;
+	margin-top:0px;
+	box-shadow: 10px 10px 5px gray;
+	
+}
+
+#m:hover,#t:hover,#f:hover,#s:hover
+{
+    border-radius:50%;
+}
+#m{
+	background-image:url("../images/mahen.jpg");
+}
+#t{
+	background-image:url("../images/thahir.png");
+}
+#f{
+	background-image:url("../images/fazz.png");
+}
+#s{
+	background-image:url("../images/shehan.jpg");
+}
+
+#para{
+	background-color:darkgray;
+	height:85px;
+	opacity:0.85;
+	font-size:25px;
+	font-weight:bold;
+	width:1400px;
+	margin:auto;
+	text-align:center;	
+	font-family:'arial';
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+	margin-top:500px;
+}
+h1{
+	font-size:50px;
+	font-weight:bold;
+	margin-left:600px;
+	margin-top:240px;
+	font-family:'arial';
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+
+}
+
+
+
+body{
+	background-image:url("../images/backi.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+	background-size:cover;
+	
+}
+
+
+.grid{
+	height:auto;
+	margin-top:0px;
+	
+}
+#click{
+	font-size:30px;
+	color:white;
+	margin-left:1100px;
+}
+.logo{
+	transition: all .2s ease-in-out;
+	width:500px;
+	
+}
+
+#logoimg{
+	margin-left:400px;
+	width:500px;
+	border: 10px solid transparent;
+	
+    border:2px solid lightblue;
+	
+	
+	
+}
+.logo figure {
+	position: relative;
+	
+}
+.logo figure::before {
+	position: absolute;
+	top: 0;
+	left: -75%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 50%;
+	height: 100%;
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	-webkit-transform: skewX(-25deg);
+	transform: skewX(-25deg);
+}
+.logo figure:hover::before {
+	-webkit-animation: shine .10s;
+	animation: shine .75s;
+}
+@-webkit-keyframes shine {
+	100% {
+		left: 330%;
+	}
+}
+@keyframes shine {
+	100% {
+		left: 330%;
+	}
+}

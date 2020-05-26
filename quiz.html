@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Quiz | Home</title>
+		<link rel="stylesheet" type="text/css" href="CSS/ExternalCSS.css">
+		<link rel="stylesheet" href="CSS/quiz.css" type="text/css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	</head>
+	<body>
+	<div class="slide-up">
+	<header>
+	<div class="containerExt">
+    <nav>
+    <ul>
+	<span id="path" ><a style="color:#00ff99" href="../Student2/home.html">Home</a> >> <a style="color:#00ff99" href="quiz.html">Quiz</a></span>
+		<li class="current"><a href="../Student 2/home.html">HOME </a></li>
+
+		<li class="current"><a href="#">
+		<div class="dropdown">
+			<button class="dropbtn">LOCATIONS 
+				<i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+				<a href="../Student 1/Anuradhapura.html">Anuradhapura</a>
+				<a href="../Student 2/Kandy.html">Kandy</a>
+				<a href="../Student 4/galle.html">Galle</a>
+				<a href="../Student 3/Sigiriya.html">Sigiriya</a>
+			</div> 
+		</div>
+		</a></li>
+		<li class="current"><a href="../Student 1/Store.html">PRODUCTS </a></li>
+		<li class="current"><a href="../Student 4/gallery.html">GALLERY </a></li>
+		<li class="current"><a href="../Student 3/quiz.html">QUIZ </a></li>
+		<div id="branding">
+			<img src="images/itpv1.svg" class="center" id="itpLogo">
+		</div>
+		<li class="current"> <a href="../Student 2/feedback.html">FEEDBACK </a></li>
+		<li class="current"><a href="../Student 3/team.html">ABOUT </a></li>	  
+	</ul>
+	</nav>
+	
+
+	</div>
+   </header>
+   </div>
+   
+   <!-- Icon bar -->
+<div class="icon-bar">
+  <a href="" class="facebook"><i class="fa fa-facebook"></i></a> 
+  <a href="" class="twitter"><i class="fa fa-twitter"></i></a> 
+  <a href="" class="google"><i class="fa fa-google"></i></a> 
+  <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  <a href="" class="youtube"><i class="fa fa-youtube"></i></a> 
+</div>
+
+ <!--To Top--> 
+ <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+		<div class="grid" id="gri">
+			<div id="quiz">
+			
+			<h1>Quiz</h1>
+			<div id="timer"></div>
+			
+			<hr style="margin-bottom: 20px">
+			<p id="question"></p>
+			<div>
+			<div class="buttons">
+				<button id="btn0"><span id="ans0"></span></button>
+				<button id="btn1"><span id="ans1"></span></button>
+				<button id="btn2"><span id="ans2"></span></button>
+				<button id="btn3"><span id="ans3"></span></button>
+			</div>
+			<div id="qimg"><img src="images/q1.png" width="240px"></div>
+			</div>
+			<br><br><br><br><br><br>
+			<hr style="margin-top:50px">
+			
+			
+				<p id="end">Question x of y </p>
+			
+			</div>
+		
+		</div>
+
+		<script src="JS/quiz.js"></script>
+		<footer style="background-color:#0099ff; opacity:0.95">
+		<div class="row" style="text-align: center;">
+		
+  
+	
+  
+    
+  <div class="col-12 col-s-12" style="text-align: center; color: white; font-size: 15px">
+	<span class=""><p> <a class="CvLink" href="cv3.html">Designer : Fazna Fouseen</a> |  <a class="CvLink" href="../Student 4/sitemap.html">Go to site map </a>
+	  </p>
+	  </span>
+  </div>
+</div>
+		</footer>
+	</body>	
+
+		
+</html>		
+	
